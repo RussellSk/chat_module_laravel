@@ -2,7 +2,7 @@
 
 return [
     'user' => [
-        'model' => 'App\User',
+        'model' => 'App\Domain\Users\Models\User',
         'foreignKey' => null,
         'ownerKey' => null,
     ],

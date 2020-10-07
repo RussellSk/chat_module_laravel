@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Migrations\Migration;
 Use Illuminate\Database\Schema\Blueprint;
 
-class CreateConversationsTable extends Migration
+class CreateChatConversationsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateConversationsTable extends Migration
      */
     public function up()
     {
-        Schema::create('conversations', function (Blueprint $table) {
+        Schema::create('chat_conversations', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('user_one');
             $table->integer('user_two');

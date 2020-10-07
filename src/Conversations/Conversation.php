@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Conversation extends Model
 {
-    protected $table = 'conversations';
+    protected $table = 'chat_conversations';
     public $timestamps = true;
     public $fillable = [
         'user_one',

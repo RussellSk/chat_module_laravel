@@ -10,7 +10,7 @@ use Nahid\Talk\Html\HtmlStringInterface;
 
 class Message extends Model implements HtmlStringInterface
 {
-    protected $table = 'messages';
+    protected $table = 'chat_messages';
 
     public $timestamps = true;
 
